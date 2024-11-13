@@ -1,10 +1,10 @@
 # Phishing-URL-Detection
 ### Phishing ###
-Phishing is a type of online scam where someone tries to trick you into giving them personal information like your passwords, credit card numbers, or other sensitive data. 
+**.** Phishing is a type of online scam where someone tries to trick you into giving them personal information like your passwords, credit card numbers, or other sensitive data. 
 
-Imagine someone pretending to be a bank or a company you trust, sending you a fake email or link that looks real. When you click on it, you might be taken to a website that seems like the real thing but is actually a fake. If you enter your information, the scammer can steal it and use it for harmful purposes, like stealing money or your identity. 
+**.** Imagine someone pretending to be a bank or a company you trust, sending you a fake email or link that looks real. When you click on it, you might be taken to a website that seems like the real thing but is actually a fake. If you enter your information, the scammer can steal it and use it for harmful purposes, like stealing money or your identity. 
 
-In short, phishing is when a scammer disguises themselves as someone trustworthy to steal your personal information.
+**.** In short, phishing is when a scammer disguises themselves as someone trustworthy to steal your personal information.
 
 **->** In this project, you are building a phishing URL detection system using machine learning models. Here's a simplified explanation:
 
