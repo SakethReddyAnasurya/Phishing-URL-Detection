@@ -1,10 +1,12 @@
 # Phishing-URL-Detection
 ### Phishing ###
-**.** Phishing is a type of online scam where someone tries to trick you into giving them personal information like your passwords, credit card numbers, or other sensitive data. 
+- Phishing is an online scam where attackers trick people into giving personal information, like passwords or credit card numbers.
 
-**.** Imagine someone pretending to be a bank or a company you trust, sending you a fake email or link that looks real. When you click on it, you might be taken to a website that seems like the real thing but is actually a fake. If you enter your information, the scammer can steal it and use it for harmful purposes, like stealing money or your identity. 
+- Scammers often pretend to be a trusted source, like a bank or company, and send fake emails or links that look legitimate. If you click these links, you may be directed to a fake website that resembles the real one.
 
-**.** In short, phishing is when a scammer disguises themselves as someone trustworthy to steal your personal information.
+- When users enter their information on these fake sites, attackers can steal the data for harmful purposes, such as identity theft or financial fraud.
+
+- In summary, phishing is a tactic used by scammers to disguise themselves as trustworthy entities to steal sensitive information.
 
 **->** In this project, you are building a phishing URL detection system using machine learning models. Here's a simplified explanation:
 
@@ -26,7 +28,7 @@ When a new URL is input, CountVectorizer transforms it into a feature vector.
 The trained VotingClassifier then predicts the category of the URL (e.g., phishing or benign) based on the learned patterns from the dataset.
 The system then outputs a label, such as "Phishing" or "Non-Phishing," to indicate whether the URL is safe or potentially malicious.
 
-**->** In this phishing URL detection project, the database serves a vital role by managing various types of data related to users, predictions, and system performance. Here’s why it is crucial:
+- In this phishing URL detection project, the database serves a vital role by managing various types of data related to users, predictions, and system performance. Here’s why it is crucial:
 
 1. **Organized Storage of User and URL Data**: The database securely holds user information, such as usernames and other details, as well as URLs that users submit for phishing detection. This structured storage is essential for efficiently managing user records and tracking URLs for accurate and timely predictions.
 
@@ -40,6 +42,6 @@ The system then outputs a label, such as "Phishing" or "Non-Phishing," to indica
 
 - **Efficiency and Scalability**: Using a database enables rapid querying, so information like user histories or system accuracy metrics can be quickly retrieved. Additionally, as the project scales with more users or data, the database’s structured approach allows the system to handle large datasets efficiently without requiring major adjustments.
 
-**->** In summary, the database is a core component in this project, enabling secure and organized data management, historical tracking of predictions, and continuous performance monitoring, all of which contribute to a robust and scalable phishing detection solution.
+- In summary, the database is a core component in this project, enabling secure and organized data management, historical tracking of predictions, and continuous performance monitoring, all of which contribute to a robust and scalable phishing detection solution.
 
-**->** This project helps create a system that can identify phishing and malicious URLs based on patterns in URL structure and text content. By using CountVectorizer, your model can analyze common word/phrase patterns that frequently appear in phishing URLs, improving detection without relying on external services.
+- This project helps create a system that can identify phishing and malicious URLs based on patterns in URL structure and text content. By using CountVectorizer, your model can analyze common word/phrase patterns that frequently appear in phishing URLs, improving detection without relying on external services.
